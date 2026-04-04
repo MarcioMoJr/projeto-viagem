@@ -1,2 +1,2 @@
 # projeto-viagem
-Primeiro trabalho de PW1 feito com HTML
+Primeiro projeto de PW1 em HTML
