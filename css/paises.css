@@ -1,0 +1,80 @@
+/* PÁGINAS DOS PAÍSES */
+
+/* Botão Voltar */
+.btn-voltar {
+    display: block;
+    width: fit-content;
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-voltar:hover {
+    background-color: #999999;
+    color: #ffffff;
+}
+
+/* Imagens */
+img {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+/* Legendas */
+div p {
+    text-align: center;
+    font-style: italic;
+    color: #1a1a1a;
+    margin-top: 4px;
+}
+
+/* Links Úteis */
+.links-uteis h3 {
+    text-align: center;
+}
+
+.links-uteis ul li a {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #2563eb;
+}
+
+.links-uteis ul li a:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.links-uteis ul {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Layout Flexbox */
+.pontos-turisticos h2 {
+    text-align: center;
+}
+
+.linha-fotos {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.foto-item {
+    flex: 1;
+    text-align: center;
+}
+
+.centralizada {
+    justify-content: center;
+}
+
+.centralizada .foto-item {
+    flex: 0 0 48%;
+}
