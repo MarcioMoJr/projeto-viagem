@@ -1,0 +1,14 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #1a1a1a;
+}
+
+h1 {
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 78px;
+}
