@@ -1,0 +1,25 @@
+
+.links-uteis h3 {
+    text-align: center;
+}
+
+.links-uteis ul li a {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #2563eb;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.links-uteis ul li a:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.links-uteis ul {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
